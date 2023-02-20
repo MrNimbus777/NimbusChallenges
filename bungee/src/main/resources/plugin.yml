@@ -1,0 +1,8 @@
+name: NimbusTournament-Bungee
+main: bungee.nimbus.tournament.NTBungee
+version: 1.0
+permissions:
+  nt.tournament.admin:
+    default: false
+  nt.teams.admin:
+    default: false

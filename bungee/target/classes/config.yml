@@ -1,0 +1,55 @@
+Database:
+  address: localhost
+  name: Database
+  user: root
+  password: 123456
+Rewards:
+  top_1:
+    - "survival!:!give %player% diamond 1!:!&61 &bdiamond"
+    - "bedwars!:!eco give %player% 2!:!&a2&f dollars"
+  top_2:
+    - "survival!:!give %player% diamond 2!:!&62 &bdiamond"
+    - "bedwars!:!eco give %player% 4!:!&a4&f dollars"
+  top_3:
+    - "survival!:!give %player% diamond 3!:!&63 &bdiamond"
+    - "bedwars!:!eco give %player% 6!:!&a6&f dollars"
+  top_4:
+    - "survival!:!give %player% diamond 4!:!&64 &bdiamond"
+    - "bedwars!:!eco give %player% 8!:!&a8&f dollars"
+  #top_5: ... top_6: ... top_infinite:
+Server:
+  prefix: "&7[&cS&7] &f"
+  maximum-played-games: 4
+Messages:
+  no-permission: "&cYou have no permissions for this!"
+  Commands:
+    tournament:
+      start: "You have started the tournament!"
+      start-for-team-members: "The tournament has been started. Participate with your Team and win precious rewards!"
+      not-rewarded: "&cYou have to reward players from previous tournament first."
+      already-started: "&cThe tournament is already running."
+      finish: "You have finished the Tournament!"
+      finish-for-team-members: "The tournament has been finished. Wait to get your rewards!"
+      not-started: "&cYou have to finish the Tournament first."
+      already-finished: "&cThe tournament is already finished."
+      reward: "All players are rewarded!"
+      reward-for-team-members: "You have been given the rewards for the last tournament. Use /rewards to get them!"
+      not-finished: "&cYou have to finish the Tournament first."
+      already-rewarded: "&cPlayers are already rewarded."
+      Usage:
+        tournament: "Usage: /tournament start|finish|reward"
+    team:
+      create: "You have created the team &6%name%&f."
+      precreate: "You have initiated the team &6%name%&f. Use &o/team add [name] [player's name]&f to add members to the team."
+      delete: "You have deleted the team &6%name%&f."
+      players-left: "You have added player %player% to the team %team%. You need to add %left% players to create the team."
+      already-exists: "&cThis team already exists."
+      no-such-team: "&cThis team is not found."
+      player-already-added: "&cThis player is already member of a team."
+      no-such-uuid: "&cThis player is not found."
+      Usage:
+        team: "Usage: /team create|add|remove|delete"
+        team-create: "Usage: /team create [name]"
+        team-add: "Usage: /team add [name] [player's name]"
+        team-delete: "Usage: /team delete|remove [name]"
+    reward: ""

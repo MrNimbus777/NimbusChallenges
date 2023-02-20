@@ -1,0 +1,11 @@
+Database:
+  address: localhost
+  name: Database
+  user: root
+  password: 123456
+Server:
+  prefix: "&7[&cS&7] &f"
+Messages:
+  rewards:
+    got: "You have got &6%reward%&f."
+    got-all: "You have got all rewards on this server. Go to other servers and use /reward to get the rest of the rewards."
